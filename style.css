@@ -1,0 +1,122 @@
+
+*{
+    margin: 0px;
+}
+/*Inicio Cuadricula 1*/
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 1rem;
+    text-align: center;
+}
+/*Fin Cuadricula 1*/
+
+/*Inicio Cuadricula 2*/
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.celda1{
+    background-color: rgb(148, 34, 57);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+.celda2{
+    background-color: rgb(47, 61, 185);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+.celda3{
+    background-color: rgb(228, 199, 39);
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+/*Fin Cuadricula 2*/
+
+/*Inicio Cuadricula 3*/
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 500px;
+    height: 300px;
+}
+.celdaText{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 1.5rem;
+}
+.celdaImage{
+    background-color: rgb(179, 179, 179);
+}
+/*Fin Cuadricula 3*/
+
+/*Inicio Cuadricula 4*/
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: green;
+}
+.gridFour > .celdaUnica{
+    color: white;
+    padding: 1rem;
+}
+.gridFour > #celdaMelliza{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 1rem;
+}
+/*Fin Cuadricula 4*/
+
+/*Inicio Cuadricula 5*/
+.gridFive{
+    display: grid;
+    grid-template-rows: 200px 200px;
+    width: 500px;
+    background-color: rgb(255, 136, 0);
+    object-fit: cover;
+}
+.gridFive > .frase{
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+.gridFive > .imagenes{
+    display: grid;
+    grid-template-columns: 200px 400px;
+}
+/*Fin Cuadricula 5*/
+
+/*Inicio Cuadricula 6*/
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 500px;
+    background-color: rgb(150, 150, 150);
+}
+.gridSix i{
+    color: rgb(255, 0, 0);
+    font-size: 75px;
+    padding: .5rem;
+}
+.gridSix p{
+    color: rgb(255, 213, 97);
+    font-size: 26px;
+    font-family: "Caveat";
+    padding: .5rem;
+}
+/*Fin Cuadricula 6*/
